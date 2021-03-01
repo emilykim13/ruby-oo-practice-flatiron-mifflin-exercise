@@ -27,34 +27,34 @@ Here are some questions to consider:
 
 **`Manager`**
   * `Manager#name`
-    * returns a `String` that is the manager's name
+    * returns a `String` that is the manager's name --done--
   * `Manager#department`
-    * returns a `String` that is the department that the manager oversees
+    * returns a `String` that is the department that the manager oversees --done--
   * `Manager#age`
-    * returns a `Fixnum` that is the age of the manager
+    * returns a `Fixnum` that is the age of the manager --done--
   * `Manager#employees`
-    * returns an `Array` of all the employees that the manager oversees
+    * returns an `Array` of all the employees that the manager oversees --done--
   * `Manager.all`
-    * returns an `Array` of all the managers
+    * returns an `Array` of all the managers --done--
   * `Manager#hire_employee`
-    * takes a `String` argument and a `Fixnum` argument of an employee's name and the employee's salary, respectively, and adds that employee to the list of employees that the manager oversees
+    * takes a `String` argument and a `Fixnum` argument of an employee's name and the employee's salary, respectively, and adds that employee to the list of employees that the manager oversees  --done--
   * `Manager.all_departments`
-    * returns an `Array` of all the department names that every manager oversees
+    * returns an `Array` of all the department names that every manager oversees  --done--
   * `Manager.average_age`
-    * returns a `Float` that is the average age of all the managers
+    * returns a `Float` that is the average age of all the managers --done--
 
 **`Employee`**
   * `Employee#name`
-    * returns a `String` that is the employee's name
+    * returns a `String` that is the employee's name --done--
   * `Employee#salary`
-    * returns a `Fixnum` that is the employee's salary
+    * returns a `Fixnum` that is the employee's salary --done--
   * `Employee#manager_name`
-    * returns a `String` that is the name of their manager
+    * returns a `String` that is the name of their manager --done--
   * `Employee.all`
-    * returns an `Array` of all the employees
+    * returns an `Array` of all the employees --done--
   * `Employee.paid_over`
-    * takes a `Fixnum` argument and returns an `Array` of all the employees whose salaries are over that amount
+    * takes a `Fixnum` argument and returns an `Array` of all the employees whose salaries are over that amount --done--
   * `Employee.find_by_department`
-    * takes a `String` argument that is the name of a department and returns the first employee whose manager is working in that department
+    * takes a `String` argument that is the name of a department and returns the first employee whose manager is working in that department  --done--
   * `Employee#tax_bracket`
-    * returns an `Array` of all the employees whose salaries are within $1000 (± 1000) of the employee who invoked the method
+    * returns an `Array` of all the employees whose salaries are within $1000 (± 1000) of the employee who invoked the method  --done--
